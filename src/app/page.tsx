@@ -76,10 +76,10 @@ export default function EyudentDentalWebsite() {
           gridVariant="four-items-2x2-equal-grid"
           useInvertedBackground={true}
           products={[
-            { id: "1", brand: "Restorative", name: "Dental Implants", price: "Customized", rating: 5, reviewCount: "150", imageSrc: "http://img.b2bpic.net/free-photo/silver-aesthetic-wallpaper-with-hair-accessories_23-2149871682.jpg" },
-            { id: "2", brand: "Cosmetic", name: "Teeth Whitening", price: "Affordable", rating: 5, reviewCount: "200", imageSrc: "http://img.b2bpic.net/free-photo/closeup-young-woman-having-her-teeth-whitened-with-ultraviolet-light-dental-clinic_662251-2598.jpg" },
-            { id: "3", brand: "Orthodontic", name: "Braces & Alignment", price: "Flexible Plans", rating: 5, reviewCount: "180", imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-man-teeth-with-dental-explorer-dental-mirror_651396-2613.jpg" },
-            { id: "4", brand: "General", name: "Cosmetic Dentistry", price: "Professional", rating: 5, reviewCount: "210", imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-sits-chair-dentist-office-while-doctor-shows-her-something_8353-1652.jpg" }
+            { id: "1", brand: "Restorative", name: "Dental Implants", price: "Starting from 15,000 ETB", rating: 5, reviewCount: "150", imageSrc: "http://img.b2bpic.net/free-photo/silver-aesthetic-wallpaper-with-hair-accessories_23-2149871682.jpg" },
+            { id: "2", brand: "Cosmetic", name: "Teeth Whitening", price: "Starting from 5,000 ETB", rating: 5, reviewCount: "200", imageSrc: "http://img.b2bpic.net/free-photo/closeup-young-woman-having-her-teeth-whitened-with-ultraviolet-light-dental-clinic_662251-2598.jpg" },
+            { id: "3", brand: "Orthodontic", name: "Braces & Alignment", price: "Free initial assessment", rating: 5, reviewCount: "180", imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-man-teeth-with-dental-explorer-dental-mirror_651396-2613.jpg" },
+            { id: "4", brand: "General", name: "Cosmetic Dentistry", price: "Free initial assessment", rating: 5, reviewCount: "210", imageSrc: "http://img.b2bpic.net/free-photo/smiling-woman-sits-chair-dentist-office-while-doctor-shows-her-something_8353-1652.jpg" }
           ]}
           buttons={[
             { text: "Schedule Appointment", href: "#contact" }
