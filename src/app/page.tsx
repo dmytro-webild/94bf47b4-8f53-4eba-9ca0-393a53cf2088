@@ -9,9 +9,25 @@ import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Sparkles, Smile, Star, Mail, Globe } from 'lucide-react';
+import { Sparkles, Smile, Star, Mail, Loader2 } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export default function EyudentDentalWebsite() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center bg-background z-[9999]">
+        <Loader2 className="w-12 h-12 text-accent animate-spin" />
+      </div>
+    );
+  }
+
   return (
     <ThemeProvider
       defaultButtonVariant="text-stagger"
