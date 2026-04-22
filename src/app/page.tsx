@@ -9,7 +9,7 @@ import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Sparkles, Smile, Star, Mail } from 'lucide-react';
+import { Sparkles, Smile, Star, Mail, Phone } from 'lucide-react';
 
 export default function EyudentDentalWebsite() {
   return (
@@ -144,6 +144,7 @@ export default function EyudentDentalWebsite() {
           mediaAnimation="slide-up"
           inputPlaceholder="Enter your full name"
           buttonText="Get Free Estimate"
+          buttons={[{ text: "Call Us Now: 091 138 0220", href: "tel:0911380220" }]}
           termsText="We prioritize your privacy and will respond within 24 hours."
         />
       </div>
