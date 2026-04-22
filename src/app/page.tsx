@@ -9,7 +9,7 @@ import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Sparkles, Smile, Star, Mail } from 'lucide-react';
+import { Sparkles, Smile, Star, Mail, Globe } from 'lucide-react';
 
 export default function EyudentDentalWebsite() {
   return (
@@ -32,7 +32,8 @@ export default function EyudentDentalWebsite() {
             { name: "Home", id: "hero" },
             { name: "Services", id: "services" },
             { name: "About", id: "about" },
-            { name: "Contact", id: "contact" }
+            { name: "Contact", id: "contact" },
+            { name: "አማርኛ", id: "language" }
           ]}
           button={{
             text: "Free Consultation",            href: "#contact"
